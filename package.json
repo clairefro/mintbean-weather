@@ -2,7 +2,7 @@
   "name": "mintbean-weather",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://clairefro.github.io/mintbean-weather/",
+  "homepage": "https://clairefro.github.io/smalltalk-forecast/",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
