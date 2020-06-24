@@ -57,9 +57,25 @@ export const smalltalk = {
       tags: ["clear"]
     },
     {
+      phrase: "It's raining cats and dogs!",
+      tags: ["shower"]
+    },
+    {
       phrase : "Did you order this sunshine?",
       tags: ["clear"]
-    }
+    },
+    {
+      phrase : "I love the way it smells when it rains.",
+      tags: ["rain"]
+    },
+    {
+      phrase : "Good day for a barbeque",
+      tags: ["clear"]
+    },
+    {
+      phrase : "Good picnic weather",
+      tags: ["clear"]
+    },
   ],
   temp: {
     low: [
@@ -69,10 +85,16 @@ export const smalltalk = {
     ],
     med: [
       "Lovely day for tennis I do say",
-      "We couldn’t ask for a nicer day, could we?"
+      "We couldn’t ask for a nicer day, could we?",
+      "Enjoy today, looks like it's going to rain all weekend",
     ],
     high: [
       "Wow, it’s so hot outside today, I’ve been sweating non-stop!",
+      "It’s SWELTERING outside!",
+      "It’s LIKE AN OVEN outside!",
+      "I'm sweating like a pig!",
+      "I'm just melting!",
+      "I sure miss winter",
     ],
   }
 

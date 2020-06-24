@@ -24,13 +24,29 @@ const Result = ({ data }) => {
         st.push(item.phrase)
       }
     })
-    return st
+    return shuffle(st).slice(0,rand(1,3))
 
   }
 
   const getRandFromArray = (arr) => {
   return arr[Math.floor(Math.random() * arr.length)];
   }
+
+  const rand = (min, max) => {
+    return Math.floor(Math.random() * (max - min + 1)) + min;
+  }
+
+  const shuffle = (arr) => {
+    var j, x, i;
+    for (i = arr.length - 1; i > 0; i--) {
+        j = Math.floor(Math.random() * (i + 1));
+        x = arr[i];
+        arr[i] = arr[j];
+        arr[j] = x;
+    }
+    return arr;
+  }
+
   useEffect(()=> {
     if (data.weather) {
       setSmalltalks(getSmalltalk(data))
