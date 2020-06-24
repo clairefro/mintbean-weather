@@ -3,31 +3,34 @@ import React, { useState, useEffect } from 'react'
 import Search from './components/search'
 import Result from './components/result'
 
-const endpoint = 'api.openweathermap.org/data/2.5/weather?q='
-const key = 'bbe430e35346bd7c152eca9e7e756412'
+const endpoint = 'https://api.weatherbit.io/v2.0/current?'
+const key = 'fdb84bad1ce344ad8a664672b46d3cac'
 
 function App() {
-  const [city, setCity] = useState('')
+  const [coords, setCoords] = useState({ lat:0, lon:0})
   const [data, setData] = useState({})
 
-  const updateCity = (c) => {
-    setCity(c)
+  const updateCoords = (c) => {
+    setCoords(c)
   }
 
   const getWeatherData = (c) => {
     console.log(`getting weather from ${c}`)
-    const url = `${endpoint}${city}&appiId=${key}`
+    const url = `${endpoint}key=${key}&lat=${c.lat}&lon=${c.lon}`
     fetch(url)
-      .then(res=> console.log(res))
-      // .then(data=> console.log(data))
-      // .catch(err => console.log(err))
+      .then(res=> res.json())
+      .then(data=> {
+        setData(data.data[0])
+        console.log(data.data[0])
+      })
+      .catch(err => console.log(err))
   }
 
   useEffect(() => {
-    if (city !== '') {
-      getWeatherData(city)
+    if (coords !== '') {
+      getWeatherData(coords)
     }
-  }, [city])
+  }, [coords])
 
   return (
     <div className="App">
@@ -36,7 +39,7 @@ function App() {
           <h1>SmallTalk</h1>
           <h2>The premiere forecaster of conversations you don't care about</h2>
         </div>
-        <Search updateCity={updateCity} />
+        <Search updateCoords={updateCoords} />
       </div>
     </div>
   );

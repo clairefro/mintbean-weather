@@ -3,16 +3,16 @@ import MapboxAutocomplete from 'react-mapbox-autocomplete'
 
 const sec = "eyJ1IjoiY2xhaXJlZnJvZnJvIiwiYSI6ImNrYnRsYnJvNTBhNzUyeW53OXBkNGF0bncifQ.x0Vx7b94vpi_T9YEmDpsnw"
 
-const Search = ({ updateCity }) => {
+const Search = ({ updateCoords }) => {
 
 
-  const onSuggestionSelect = (result) => {
-    updateCity(result)
+  const onSuggestionSelect = (result, lat, lon,) => {
+    updateCoords({lat, lon})
   }
 
   return (
     <div id="geocoder" className="search-container">
-      <h2>Find your city</h2>
+      <h2>Find a place</h2>
       <MapboxAutocomplete
         publicKey={`pk.${sec}`}
         inputClass='search'
