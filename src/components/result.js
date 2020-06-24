@@ -17,9 +17,13 @@ const Result = ({ data }) => {
     } else {
       st.push(getRandFromArray(smalltalk.temp.high))
     }
-    console.log(st)
-    // get weather based smalltalk
 
+    // get weather based smalltalk
+    smalltalk.weather.forEach(item => {
+      if(new RegExp(item.tags.join("|"),'i').test(d.weather.description)) {
+        st.push(item.phrase)
+      }
+    })
     return st
 
   }

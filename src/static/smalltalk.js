@@ -5,7 +5,7 @@ export const smalltalk = {
       tags: ["rain", "shower"]
     },
     {
-      phrase: "Lovely day isn't it!",
+      phrase: "Lovely day isn't it!🙄",
       tags: ["rain", "shower"]
     },
     {
@@ -58,7 +58,7 @@ export const smalltalk = {
     },
     {
       phrase : "Did you order this sunshine?",
-      tags: ["clear"] 
+      tags: ["clear"]
     }
   ],
   temp: {
