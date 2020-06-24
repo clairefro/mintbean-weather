@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c116c6bd6edb5df93588fd73dd604149",
+    "revision": "005775d40dcb0d0fcc1a529676176186",
     "url": "/smalltalk-forecast/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/smalltalk-forecast/static/css/2.17bfc966.chunk.css"
   },
   {
-    "revision": "40eab5b76b84dc5ea319",
-    "url": "/smalltalk-forecast/static/css/main.10627f32.chunk.css"
+    "revision": "8950edf2a1140a180620",
+    "url": "/smalltalk-forecast/static/css/main.00ac03e3.chunk.css"
   },
   {
     "revision": "733566fb6926ef37d71f",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/smalltalk-forecast/static/js/2.52d19915.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "40eab5b76b84dc5ea319",
-    "url": "/smalltalk-forecast/static/js/main.ae0a6a4b.chunk.js"
+    "revision": "8950edf2a1140a180620",
+    "url": "/smalltalk-forecast/static/js/main.5cd277aa.chunk.js"
   },
   {
     "revision": "a483773f1845bc887e5a",
