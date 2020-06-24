@@ -7,7 +7,7 @@ const endpoint = 'https://api.weatherbit.io/v2.0/current?'
 const key = 'fdb84bad1ce344ad8a664672b46d3cac'
 
 function App() {
-  const [coords, setCoords] = useState({ lat:0, lon:0})
+  const [coords, setCoords] = useState({})
   const [data, setData] = useState({})
 
   const updateCoords = (c) => {
@@ -15,15 +15,17 @@ function App() {
   }
 
   const getWeatherData = (c) => {
-    console.log(`getting weather from ${c}`)
-    const url = `${endpoint}key=${key}&lat=${c.lat}&lon=${c.lon}`
-    fetch(url)
+    if (coords.lat) {
+      console.log(`getting weather from ${c}`)
+      const url = `${endpoint}key=${key}&lat=${c.lat}&lon=${c.lon}`
+      fetch(url)
       .then(res=> res.json())
       .then(data=> {
         setData(data.data[0])
         console.log(data.data[0])
       })
       .catch(err => console.log(err))
+    }
   }
 
   useEffect(() => {
