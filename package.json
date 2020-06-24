@@ -2,13 +2,17 @@
   "name": "mintbean-weather",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://clairefro.github.io/mintbean-weather/",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
     "gh-pages": "^3.0.0",
+    "mapbox-gl-geocoder": "^2.0.1",
+    "node-sass": "^4.14.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
+    "react-mapbox-autocomplete": "^0.2.3",
     "react-scripts": "3.4.1"
   },
   "scripts": {
