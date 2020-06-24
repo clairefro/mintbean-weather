@@ -1,10 +1,11 @@
 import React, { useState, useEffect } from 'react'
 
 import {smalltalk} from '../static/smalltalk'
+import {speak} from '../lib/speak'
 const iconEndpoint = 'https://www.weatherbit.io/static/img/icons/'
 
 const Result = ({ data }) => {
-  const [smalltalks, setSmalltalks] = useState(['s'])
+  const [smalltalks, setSmalltalks] = useState([])
 
   const getSmalltalk = (d) => {
     let st = []
@@ -52,6 +53,7 @@ const Result = ({ data }) => {
       setSmalltalks(getSmalltalk(data))
     }
   }, [data])
+
   return data.weather ? (
     <div className="result-container">
       <h2>Weather in {data.city_name}, {data.country_code}</h2>
@@ -66,6 +68,7 @@ const Result = ({ data }) => {
           <li key={i}>"{s}"</li>
         ))}
       </ul>
+      <button onClick={()=> speak(smalltalks.join(' '), 'en-GB')}>Get it out of the way now</button>
     </div>
   ) : null
 
