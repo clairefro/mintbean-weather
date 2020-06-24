@@ -37,9 +37,10 @@ function App() {
       <div className="container">
         <div className="title">
           <h1>SmallTalk</h1>
-          <h2>The premiere forecaster of conversations you don't care about</h2>
+          <h3>The premiere forecaster of conversations you don't care about</h3>
         </div>
         <Search updateCoords={updateCoords} />
+        <Result data={data}/>
       </div>
     </div>
   );
