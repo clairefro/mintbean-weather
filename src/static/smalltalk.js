@@ -25,11 +25,11 @@ export const smalltalk = {
       tags: ["clouds"]
     },
     {
-      phrase: "Looks like the sun's trying to come out",
+      phrase: "Looks like the sun's trying to come out.",
       tags: ["clouds", "drizzle"]
     },
     {
-      phrase: "It's finally decided to rain",
+      phrase: "It's finally decided to rain.",
       tags: ["rain", "showers"]
     },
     {
@@ -45,7 +45,7 @@ export const smalltalk = {
       tags: ["thunder"]
     },
     {
-      phrase: "Finally I can get that tan",
+      phrase: "Finally I can get that tan.",
       tags: ["clear"]
     },
     {
@@ -69,24 +69,24 @@ export const smalltalk = {
       tags: ["rain"]
     },
     {
-      phrase : "Good day for a barbeque",
+      phrase : "Good day for a barbeque.",
       tags: ["clear"]
     },
     {
-      phrase : "Good picnic weather",
+      phrase : "Good picnic weather.",
       tags: ["clear"]
     },
   ],
   temp: {
     low: [
-      "A bit bippy today eh?",
+      "A bit nippy today eh?",
       "It’s freezing today! Hopefully it doesn’t snow.",
       "It sure would be nice to be in Hawaii right about now."
     ],
     med: [
-      "Lovely day for tennis I do say",
+      "Lovely day for tennis, I do say.",
       "We couldn’t ask for a nicer day, could we?",
-      "Enjoy today, looks like it's going to rain all weekend",
+      "Enjoy today, looks like it's going to rain all weekend.",
     ],
     high: [
       "Wow, it’s so hot outside today, I’ve been sweating non-stop!",

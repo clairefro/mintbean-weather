@@ -11,4 +11,28 @@
       margin-left:1rem;
     }
   }
+  ul {
+    list-style: none;
+    text-align: center;
+    li {
+      font-size: 20px;
+      margin-bottom: 0.8rem;
+      font-weight: bold;
+    }
+  }
+  button {
+    background-color: white;
+    border: none;
+    font-size: 24px;
+    padding: 1.5rem;
+    background-color: #20e5ba;
+    color: #e4fbf6;
+    cursor: pointer;
+    transition: ease 0.3s;
+    &:hover {
+      transform: scale(1.1);
+      transition: ease 0.3s;
+
+    }
+  }
 }

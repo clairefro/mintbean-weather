@@ -62,13 +62,13 @@ const Result = ({ data }) => {
         <p>{data.temp}°C</p>
       </div>
       <p>{data.weather.description}</p>
-      <h2>{randomPercent()} chance of hearing this from strangers:</h2>
+      <p>with {randomPercent()} chance of hearing this from strangers:</p>
       <ul>
         {smalltalks.map((s,i)=> (
           <li key={i}>"{s}"</li>
         ))}
       </ul>
-      <button onClick={()=> speak(smalltalks.join(' '), 'en-GB')}>Get it out of the way now</button>
+      <button onClick={()=> speak(smalltalks.join(' '), 'en-US')}>Get it out of the way now</button>
     </div>
   ) : null
 

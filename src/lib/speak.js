@@ -6,7 +6,7 @@ export const speak = (text, lang) => {
     const u = new SpeechSynthesisUtterance();
     u.text = text;
     u.lang = lang;
-    // u.rate = 1;  // optional: change speaking speed (0.1 [slow] - 1 [normal])
+    u.rate = 0.9;  // optional: change speaking speed (0.1 [slow] - 1 [normal])
     speechSynthesis.speak(u);
   }
 }
