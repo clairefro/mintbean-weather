@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/smalltalk-forecast/precache-manifest.1d8ef2e20be3fc9d3b73c4a9b985f61b.js"
+  "/smalltalk-forecast/precache-manifest.b597087c1e7e422f8ef48a88f3b5c804.js"
 );
 
 self.addEventListener('message', (event) => {
