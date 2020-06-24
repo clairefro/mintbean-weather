@@ -29,6 +29,26 @@ export const smalltalk = {
       tags: ["clouds", "drizzle"]
     },
     {
+      phrase: "Good day to curl up with a book, eh?",
+      tags: ["overcast", "broken clouds", "snow shower"]
+    },
+    {
+      phrase: "It's beginning to look a lot like Christmas! Unless you live in the southern hemisphere.",
+      tags: ["snow", "flurries"]
+    },
+    {
+      phrase: "Oh the weather outside is frightful.",
+      tags: ["snow", "flurries", "freezing", "hail"]
+    },
+    {
+      phrase: "Brrrrrrrrrr, right?",
+      tags: ["snow", "flurries","freezing"]
+    },
+    {
+      phrase: "So how 'bout that weather?",
+      tags: ["misty", "smoke", "clouds", "rain", "clear","fog","shower","snow"]
+    },
+    {
       phrase: "It's finally decided to rain.",
       tags: ["rain", "showers"]
     },
