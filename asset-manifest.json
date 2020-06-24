@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/smalltalk-forecast/static/css/main.a9b97344.chunk.css",
-    "main.js": "/smalltalk-forecast/static/js/main.2ac7c012.chunk.js",
-    "main.js.map": "/smalltalk-forecast/static/js/main.2ac7c012.chunk.js.map",
+    "main.js": "/smalltalk-forecast/static/js/main.d724d021.chunk.js",
+    "main.js.map": "/smalltalk-forecast/static/js/main.d724d021.chunk.js.map",
     "runtime-main.js": "/smalltalk-forecast/static/js/runtime-main.7d028a08.js",
     "runtime-main.js.map": "/smalltalk-forecast/static/js/runtime-main.7d028a08.js.map",
     "static/css/2.17bfc966.chunk.css": "/smalltalk-forecast/static/css/2.17bfc966.chunk.css",
     "static/js/2.70c166d0.chunk.js": "/smalltalk-forecast/static/js/2.70c166d0.chunk.js",
     "static/js/2.70c166d0.chunk.js.map": "/smalltalk-forecast/static/js/2.70c166d0.chunk.js.map",
     "index.html": "/smalltalk-forecast/index.html",
-    "precache-manifest.b597087c1e7e422f8ef48a88f3b5c804.js": "/smalltalk-forecast/precache-manifest.b597087c1e7e422f8ef48a88f3b5c804.js",
+    "precache-manifest.f2aff05daa6766c341cab2c9cacfcaf4.js": "/smalltalk-forecast/precache-manifest.f2aff05daa6766c341cab2c9cacfcaf4.js",
     "service-worker.js": "/smalltalk-forecast/service-worker.js",
     "static/css/2.17bfc966.chunk.css.map": "/smalltalk-forecast/static/css/2.17bfc966.chunk.css.map",
     "static/css/main.a9b97344.chunk.css.map": "/smalltalk-forecast/static/css/main.a9b97344.chunk.css.map",
@@ -20,6 +20,6 @@
     "static/css/2.17bfc966.chunk.css",
     "static/js/2.70c166d0.chunk.js",
     "static/css/main.a9b97344.chunk.css",
-    "static/js/main.2ac7c012.chunk.js"
+    "static/js/main.d724d021.chunk.js"
   ]
 }
